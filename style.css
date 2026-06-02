@@ -7,6 +7,9 @@ body {
 /*faire des background-color pour ce repérer sur les différentes div,*/
 /*les couleurs temporaires: # */	
 
+.souligné {
+    text-decoration: underline;
+}
 
 .Page_accueil{	/*ceci touche uniquement le texte pas le background-color : teste div*/
 	display: flex;
