@@ -226,6 +226,7 @@ body {
 	flex-direction: column;
 	gap: 30px; /*séparateur*/
 	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
 
 .parcours_titre{	/*ceci touche uniquement le texte pas le background-color : teste div*/
 	width: 100%;
