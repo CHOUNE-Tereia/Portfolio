@@ -136,7 +136,7 @@ body {
 	text-align: center;
 }
 
-/*-----------------------A PROPOS---------------------------------*/
+/*-----------------------A Profil---------------------------------*/
 
 .Page_profil{	/*A PROPOS DE MOI*/
 	display: flex;
@@ -146,6 +146,7 @@ body {
 	flex-direction: column;
 	gap: 10px; /*séparateur*/
 	background-color: #92acff;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .profil_cont_gd{
@@ -164,10 +165,11 @@ body {
 	height: 250px;
 	display: flex;
 	justify-content:center;
+	align-items: flex-end;
 	font-family: "DM Serif Display", sans-serif;
 	color: #FFFFF0;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .profil_gauche{
