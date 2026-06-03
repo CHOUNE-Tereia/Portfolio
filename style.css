@@ -263,7 +263,7 @@ body {
 	align-items:flex-end;
 	font-family: "DM Serif Display", sans-serif;
 	font-size: 50px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .scoB {
@@ -275,7 +275,7 @@ body {
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	align-items:center;
 	gap: 60px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .scolaire1{
@@ -321,9 +321,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .scolaire2{
@@ -337,7 +337,7 @@ body {
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+	
 	/* les cases de l'intérieur*/
 	flex-direction: column;
 }
@@ -369,9 +369,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .scolaire3{
@@ -417,9 +417,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .scolaire4{
@@ -465,9 +465,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .scolaire5{
@@ -513,9 +513,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 /*---------------------Parcours_professionel----------------------------*/
@@ -569,7 +569,7 @@ body {
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+	
 	/* les cases de l'intérieur*/
 	flex-direction: column;
 }
@@ -601,9 +601,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .pro2{
@@ -617,7 +617,7 @@ body {
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+	
 	/* les cases de l'intérieur*/
 	flex-direction: column;
 }
@@ -631,13 +631,13 @@ body {
 	font-family: "DM Sans", sans-serif;
 	font-size: 15px; /*le texte, mais permet aussi de réduire la div également
 	background-color: #92acff;*/
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
-.mfreo_pms_img img {
+	.mfreo_pms_img img {
 	width: 100%;
-    height: 70%;
+    height: 100%;
     object-fit: cover;
 	}
 	
@@ -649,9 +649,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .pro3{
@@ -665,7 +665,7 @@ body {
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+	
 	/* les cases de l'intérieur*/
 	flex-direction: column;
 }
@@ -680,8 +680,13 @@ body {
 	font-size: 15px; /*le texte, mais permet aussi de réduire la div également
 	background-color: #92acff;*/
 	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
+	.mairie_tiu_img img {
+	width: 60%;
+    height: 100%;
+    object-fit: cover;
+	}
 
 .mairie_tiu_txt{
 	width: 90%;
@@ -691,9 +696,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .pro4{
@@ -721,9 +726,14 @@ body {
 	font-family: "DM Sans", sans-serif;
 	font-size: 15px; /*le texte, mais permet aussi de réduire la div également
 	background-color: #92acff;*/
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
+	.poste_pms_img img {
+	width: 800%;
+    height: 80%;
+    object-fit: cover;
+	}
 
 .poste_pms_txt{
 	width: 90%;
@@ -733,9 +743,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .proB{ /*div du haut*/
@@ -748,6 +758,7 @@ body {
 	align-items:center;
 	gap: 60px;
 	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+
 }
 
 .pro5{
@@ -776,8 +787,13 @@ body {
 	font-size: 15px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
+	.dsi_pf_img img {
+	width: 100%;
+    height: 30%;
+    object-fit: cover;
+	}
 
 .dsi_pf_txt{
 	width: 90%;
@@ -787,9 +803,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .pro6{
@@ -803,7 +819,7 @@ body {
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+	
 	/* les cases de l'intérieur*/
 	flex-direction: column;
 }
@@ -817,9 +833,15 @@ body {
 	font-family: "DM Sans", sans-serif;
 	font-size: 15px; /*le texte, mais permet aussi de réduire la div également
 	background-color: #92acff;*/
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
+	.ifremer_pf_img img {
+	width: 100%;
+    height: 50%;
+    object-fit: cover;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	}
 
 .ifremer_pf_txt{
 	width: 90%;
@@ -829,9 +851,9 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
-	background-color: #92acff;
-	/*align-items:center;*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	background-color: #92acff;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 /*------------------------------PROJETS--------------------------------*/
