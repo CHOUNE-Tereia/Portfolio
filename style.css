@@ -1037,7 +1037,7 @@ body {
 	align-items:center;
 }
 	.certif1_img img {
-	width: 100%;
+	width: 95%;
     height: auto;
     object-fit: cover;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -1068,7 +1068,7 @@ body {
 	align-items:center;
 }
 	.certif2_img img {
-	width: 100%;
+	width: 95%;
     height: auto;
     object-fit: cover;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -1099,7 +1099,7 @@ body {
 	align-items:center;
 }
 	.certif3_img img {
-	width: 100%;
+	width: 95%;
     height: auto;
     object-fit: cover;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -1572,7 +1572,7 @@ body {
 }
 	.compé10 img {
 	width: 100%;
-    height: auto%;
+    height: auto;
     object-fit: cover;
 	}
 
