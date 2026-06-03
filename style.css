@@ -225,8 +225,7 @@ body {
 	align-items:center;
 	flex-direction: column;
 	gap: 30px; /*séparateur*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 
 .parcours_titre{	/*ceci touche uniquement le texte pas le background-color : teste div*/
 	width: 100%;
@@ -237,7 +236,7 @@ body {
 	font-family: "DM Serif Display", sans-serif;
 	color: #FFFFF0;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 /*---------------------------parcours_scolaire------------------------*/
