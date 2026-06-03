@@ -1004,7 +1004,7 @@ body {
 
 .certif_cont{
 	width: 100%;
-	height: 500px;
+	height: 300px;
 	display: flex;
 	justify-content:center;
 	align-items:center;
@@ -1013,43 +1013,97 @@ body {
 }
 
 .certif1 {
-	width: 20%;
-	height: 400px;
+	width: 30%;
+	height: 300px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	/*font-size: 30px; le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #FFFFF0;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.certif1_img {
+	width: 100%;
+	height: 200px;
 	display: flex;
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
+	/*background-color: #FFFFF0;*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+	.certif1_img img {
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	}
 
 .certif2 {
-	width: 20%;
-	height: 400px;
+	width: 30%;
+	height: 300px;
 	display: flex;
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
+	/*background-color: #FFFFF0;*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
-.certif3 {
-	width: 20%;
-	height: 400px;
+.certif2_img {
+	width: 100%;
+	height: 200px;
 	display: flex;
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
+	/*background-color: #FFFFF0;*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+	.certif2_img img {
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	}
+
+.certif3 {
+	width: 30%;
+	height: 300px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #FFFFF0;*/
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.certif3_img {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #FFFFF0;*/
+	align-items:center;
+}
+	.certif3_img img {
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	}
 
 /*-------------------------------VEILLE----------------------------*/
 
