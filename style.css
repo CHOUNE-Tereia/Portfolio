@@ -915,11 +915,65 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	/*padding: 30px;*/
 }
+
+	.projet1_txt {
+	width: 100%;
+	height: 520px;
+	display: flex;
+	justify-content:flex-start;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0 ;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+	.projet1_bout {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content:center;
+	color:#FFFFF0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	
+	/*flex-direction: column;
+	text-align: justify;
+	padding: 30px;*/
+	}
+	
+		/* Style du lien à l'intérieur */
+		.projet1_bout a {
+		color: #0e0929;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 5px 20px;
+		border: 2px solid #0e0929 ;
+		border-radius: 10px;
+		transition: 0.3s;
+		}
+
+		.projet1_bout a:hover {
+		background-color: #0e0929;
+		color: #92acff;
+		}
 
 .projet2 {
 	width: 40%;
@@ -928,11 +982,65 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	/*padding: 30px;*/
 }
+
+	.projet2_txt {
+	width: 100%;
+	height: 520px;
+	display: flex;
+	justify-content:flex-start;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0 ;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+	.projet2_bout {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content:center;
+	color:#FFFFF0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	
+	/*flex-direction: column;
+	text-align: justify;
+	padding: 30px;*/
+	}
+	
+		/* Style du lien à l'intérieur */
+		.projet2_bout a {
+		color: #0e0929;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 5px 20px;
+		border: 2px solid #0e0929 ;
+		border-radius: 10px;
+		transition: 0.3s;
+		}
+
+		.projet2_bout a:hover {
+		background-color: #0e0929;
+		color: #92acff;
+		}
 
 .projetB{ /*div du haut*/
 	width: 90%;
@@ -954,11 +1062,65 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	/*padding: 30px;*/
 }
+
+	.projet3_txt {
+	width: 100%;
+	height: 520px;
+	display: flex;
+	justify-content:flex-start;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0 ;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+	.projet3_bout {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content:center;
+	color:#FFFFF0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	
+	/*flex-direction: column;
+	text-align: justify;
+	padding: 30px;*/
+	}
+	
+		/* Style du lien à l'intérieur */
+		.projet3_bout a {
+		color: #0e0929;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 5px 20px;
+		border: 2px solid #0e0929 ;
+		border-radius: 10px;
+		transition: 0.3s;
+		}
+
+		.projet3_bout a:hover {
+		background-color: #0e0929;
+		color: #92acff;
+		}
 
 .projet4 {
 	width: 40%;
@@ -967,11 +1129,65 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	/*padding: 30px;*/
 }
+
+	.projet4_txt {
+	width: 100%;
+	height: 520px;
+	display: flex;
+	justify-content:flex-start;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0 ;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+	.projet4_bout {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content:center;
+	color:#FFFFF0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	
+	/*flex-direction: column;
+	text-align: justify;
+	padding: 30px;*/
+	}
+	
+		/* Style du lien à l'intérieur */
+		.projet4_bout a {
+		color: #0e0929;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 5px 20px;
+		border: 2px solid #0e0929 ;
+		border-radius: 10px;
+		transition: 0.3s;
+		}
+
+		.projet4_bout a:hover {
+		background-color: #0e0929;
+		color: #92acff;
+		}
 
 /*------------------------------------------------------------------------*/
 
