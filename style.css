@@ -1493,6 +1493,44 @@ body {
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+	.juri1_link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	width: 100%;
+	}
+	
+		.juri1_img{
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content:center;
+		color:#0e0929;
+		font-family: "DM Sans", sans-serif;
+		font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+		background-color: #FFFFF0;
+		align-items:center;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+		}
+			.juri1_img img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+			}
+		
+		.juri1_txt{
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content:center;
+		color:#0e0929;
+		font-family: "DM Sans", sans-serif;
+		font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+		background-color: #FFFFF0;
+		align-items:center;
+		/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+		}
 
 .juri2{
 	width: 30%;
@@ -1506,6 +1544,44 @@ body {
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+	.juri2_link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	width: 100%;
+	}
+	
+		.juri2_img{
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content:center;
+		color:#0e0929;
+		font-family: "DM Sans", sans-serif;
+		font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+		background-color: #FFFFF0;
+		align-items:center;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+		}
+			.juri2_img img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+			}
+		
+		.juri2_txt{
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content:center;
+		color:#0e0929;
+		font-family: "DM Sans", sans-serif;
+		font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+		background-color: #FFFFF0;
+		align-items:center;
+		/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+		}
 
 .juri3{
 	width: 30%;
@@ -1519,6 +1595,44 @@ body {
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+	.juri3_link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	width: 100%;
+	}
+	
+		.juri3_img{
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content:center;
+		color:#0e0929;
+		font-family: "DM Sans", sans-serif;
+		font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+		background-color: #FFFFF0;
+		align-items:center;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+		}
+			.juri3_img img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+			}
+		
+		.juri3_txt{
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content:center;
+		color:#0e0929;
+		font-family: "DM Sans", sans-serif;
+		font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+		background-color: #FFFFF0;
+		align-items:center;
+		/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+		}
 
 /*------------------------------------------------------------------------*/
 
