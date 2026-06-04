@@ -2185,19 +2185,37 @@ img {
 		gap: 10px;
 	}
 }
-/* ===== Correction texte responsive section Projets ===== */
+/* ===== Correction section Projets ===== */
+
+.Page_projet,
+.projet_cont,
+.projetH,
+.projetB {
+	height: auto !important;
+	overflow: visible !important;
+}
+
+.projetH,
+.projetB {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	gap: 60px;
+	margin-bottom: 60px;
+}
 
 .projet1,
 .projet2,
 .projet3,
 .projet4 {
+	width: 40%;
 	height: auto !important;
-	min-height: 600px;
+	min-height: auto;
 	padding: 30px;
+	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: space-between;
-	overflow: hidden;
+	overflow: visible !important;
 }
 
 .projet1_txt,
@@ -2212,19 +2230,18 @@ img {
 .projet2_txt h1,
 .projet3_txt h1,
 .projet4_txt h1 {
-	font-size: clamp(28px, 4vw, 48px);
+	font-size: clamp(28px, 3vw, 45px);
 	line-height: 1.2;
-	margin: 0 0 20px 0;
+	text-align: center;
 }
 
 .projet1_txt p,
 .projet2_txt p,
 .projet3_txt p,
 .projet4_txt p {
-	font-size: clamp(15px, 2vw, 20px);
-	line-height: 1.5;
-	text-align: justify;
-	word-spacing: normal;
+	font-size: clamp(14px, 1.2vw, 18px);
+	line-height: 1.45;
+	text-align: left;
 	overflow-wrap: break-word;
 }
 
@@ -2232,19 +2249,96 @@ img {
 .projet2_bout,
 .projet3_bout,
 .projet4_bout {
-	margin-top: 20px;
+	margin-top: 25px;
 	text-align: center;
 }
 
-/* Sur téléphone, on évite les gros espaces du justify */
 @media screen and (max-width: 768px) {
-	.projet1_txt p,
-	.projet2_txt p,
-	.projet3_txt p,
-	.projet4_txt p {
-		text-align: left;
+	.projetH,
+	.projetB {
+		flex-direction: column !important;
+		align-items: center !important;
+	}
+
+	.projet1,
+	.projet2,
+	.projet3,
+	.projet4 {
+		width: 90% !important;
 	}
 }
-.projetH {
-	margin-bottom: 80px;
+
+/* Correction section Profil */
+.Page_profil,
+.profil_cont_gd,
+.profil_gauche,
+.profil_droite {
+	height: auto !important;
+	overflow: visible !important;
+}
+
+.Page_profil {
+	padding-bottom: 60px;
+}
+
+.profil_gauche,
+.profil_droite {
+	padding: 25px;
+	line-height: 1.5;
+}
+
+.profil_gauche p,
+.profil_droite p {
+	font-size: clamp(14px, 1.7vw, 20px);
+	line-height: 1.5;
+	margin: 12px 0;
+}
+/* ===== Correction accueil + menu ===== */
+
+.navbar {
+	z-index: 1000;
+}
+
+.titre_principal {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.titre_principal h1 {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	font-size: clamp(3rem, 10vw, 12rem);
+	line-height: 1;
+	word-break: break-word;
+	text-align: center;
+}
+
+
+.titre_principal p {
+	width: 100%;
+	height: auto;
+	font-size: clamp(1.5rem, 3vw, 3.5rem);
+}
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		position: static;
+		height: auto;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.nav-links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 8px;
+		font-size: 1rem;
+	}
+
+	.titre_principal h1 {
+		font-size: clamp(3rem, 15vw, 6rem);
+	}
 }
