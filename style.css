@@ -684,9 +684,9 @@ body {
 	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 	.mairie_tiu_img img {
-	width: 60%;
-    height: 100%;
-    object-fit: cover;
+	width: 100%;
+    height: auto;
+    object-fit: contain;
 	}
 
 .mairie_tiu_txt{
@@ -731,9 +731,9 @@ body {
 	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 	.poste_pms_img img {
-	width: 800%;
-    height: 80%;
-    object-fit: cover;
+	width: 100%;
+    height: auto;
+    object-fit: contain;
 	}
 
 .poste_pms_txt{
@@ -915,65 +915,11 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	/*padding: 30px;*/
 }
-
-	.projet1_txt {
-	width: 100%;
-	height: 520px;
-	display: flex;
-	justify-content:flex-start;
-	color:#0e0929;
-	font-family: "DM Sans", sans-serif;
-	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0 ;
-	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	padding: 10px;
-	}
-	
-	.projet1_bout {
-	width: 100%;
-	height: 80px;
-	display: flex;
-	justify-content:center;
-	color:#FFFFF0;
-	font-family: "DM Sans", sans-serif;
-	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
-	align-items:center;
-	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
-	
-	/*flex-direction: column;
-	text-align: justify;
-	padding: 30px;*/
-	}
-	
-		/* Style du lien à l'intérieur */
-		.projet1_bout a {
-		color: #0e0929;
-		text-decoration: none;
-		font-weight: bold;
-		padding: 5px 20px;
-		border: 2px solid #0e0929 ;
-		border-radius: 10px;
-		transition: 0.3s;
-		}
-
-		.projet1_bout a:hover {
-		background-color: #0e0929;
-		color: #92acff;
-		}
 
 .projet2 {
 	width: 40%;
@@ -982,65 +928,11 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	/*padding: 30px;*/
 }
-
-	.projet2_txt {
-	width: 100%;
-	height: 520px;
-	display: flex;
-	justify-content:flex-start;
-	color:#0e0929;
-	font-family: "DM Sans", sans-serif;
-	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0 ;
-	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	padding: 10px;
-	}
-	
-	.projet2_bout {
-	width: 100%;
-	height: 80px;
-	display: flex;
-	justify-content:center;
-	color:#FFFFF0;
-	font-family: "DM Sans", sans-serif;
-	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
-	align-items:center;
-	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
-	
-	/*flex-direction: column;
-	text-align: justify;
-	padding: 30px;*/
-	}
-	
-		/* Style du lien à l'intérieur */
-		.projet2_bout a {
-		color: #0e0929;
-		text-decoration: none;
-		font-weight: bold;
-		padding: 5px 20px;
-		border: 2px solid #0e0929 ;
-		border-radius: 10px;
-		transition: 0.3s;
-		}
-
-		.projet2_bout a:hover {
-		background-color: #0e0929;
-		color: #92acff;
-		}
 
 .projetB{ /*div du haut*/
 	width: 90%;
@@ -1062,65 +954,11 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	/*padding: 30px;*/
 }
-
-	.projet3_txt {
-	width: 100%;
-	height: 520px;
-	display: flex;
-	justify-content:flex-start;
-	color:#0e0929;
-	font-family: "DM Sans", sans-serif;
-	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0 ;
-	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	padding: 10px;
-	}
-	
-	.projet3_bout {
-	width: 100%;
-	height: 80px;
-	display: flex;
-	justify-content:center;
-	color:#FFFFF0;
-	font-family: "DM Sans", sans-serif;
-	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
-	align-items:center;
-	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
-	
-	/*flex-direction: column;
-	text-align: justify;
-	padding: 30px;*/
-	}
-	
-		/* Style du lien à l'intérieur */
-		.projet3_bout a {
-		color: #0e0929;
-		text-decoration: none;
-		font-weight: bold;
-		padding: 5px 20px;
-		border: 2px solid #0e0929 ;
-		border-radius: 10px;
-		transition: 0.3s;
-		}
-
-		.projet3_bout a:hover {
-		background-color: #0e0929;
-		color: #92acff;
-		}
 
 .projet4 {
 	width: 40%;
@@ -1129,65 +967,11 @@ body {
 	justify-content:center;
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 25px; /*le texte, mais permet aussi de réduire la div également*/
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	/*padding: 30px;*/
 }
-
-	.projet4_txt {
-	width: 100%;
-	height: 520px;
-	display: flex;
-	justify-content:flex-start;
-	color:#0e0929;
-	font-family: "DM Sans", sans-serif;
-	font-size: 16px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0 ;
-	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	
-	flex-direction: column;
-	text-align: justify;
-	padding: 10px;
-	}
-	
-	.projet4_bout {
-	width: 100%;
-	height: 80px;
-	display: flex;
-	justify-content:center;
-	color:#FFFFF0;
-	font-family: "DM Sans", sans-serif;
-	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #FFFFF0;
-	align-items:center;
-	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
-	
-	/*flex-direction: column;
-	text-align: justify;
-	padding: 30px;*/
-	}
-	
-		/* Style du lien à l'intérieur */
-		.projet4_bout a {
-		color: #0e0929;
-		text-decoration: none;
-		font-weight: bold;
-		padding: 5px 20px;
-		border: 2px solid #0e0929 ;
-		border-radius: 10px;
-		transition: 0.3s;
-		}
-
-		.projet4_bout a:hover {
-		background-color: #0e0929;
-		color: #92acff;
-		}
 
 /*------------------------------------------------------------------------*/
 
@@ -1973,8 +1757,8 @@ body {
 }
 	.compé4 img {
 	width: 100%;
-    height: 70%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 	}
 
 .compé5{
@@ -2124,9 +1908,9 @@ body {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 	.compé11 img {
-	width: 70%;
+	width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
 	}
 
 .compé12{
@@ -2262,292 +2046,205 @@ body {
     color: #92acff;
 }
 
-/* ================= RESPONSIVE ================= */
 
-/* Empêche les débordements horizontaux */
-html, body {
+html {
+	scroll-behavior: smooth;
+}
+/* ================= RESPONSIVE GLOBAL SIMPLE ================= */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	max-width: 100%;
 	overflow-x: hidden;
 }
 
-/* Images adaptables */
 img {
 	max-width: 100%;
 	height: auto;
+	display: block;
+	object-fit: contain;
 }
 
-/* Tablette */
-@media screen and (max-width: 1024px) {
-
-	.navbar {
-		width: 100%;
-		padding: 0 20px;
-	}
-
-	.logo {
-		font-size: 1.2rem;
-	}
-
-	.nav-links {
-		gap: 10px;
-		font-size: 1rem;
-	}
-
-	.titre_principal h1 {
-		width: 100%;
-		font-size: 900%;
-	}
-
-	.titre_principal p {
-		width: 100%;
-		font-size: 250%;
-	}
-
-	.scoB,
-	.proH,
-	.proB,
-	.technoH,
-	.juriB,
-	.certif_cont,
-	.contact_cont {
-		flex-wrap: wrap;
-		height: auto;
-		padding: 30px 0;
-	}
-
-	.scolaire1,
-	.scolaire2,
-	.scolaire3,
-	.scolaire4,
-	.scolaire5,
-	.pro1,
-	.pro2,
-	.pro3,
-	.pro4,
-	.pro5,
-	.pro6,
-	.pro7,
-	.techno1,
-	.techno2,
-	.techno3,
-	.techno4,
-	.techno5,
-	.juri1,
-	.juri2,
-	.juri3,
-	.certif1,
-	.certif2,
-	.certif3,
-	.contact1,
-	.contact2,
-	.contact3 {
-		width: 40%;
-	}
-}
-
-/* Téléphone */
 @media screen and (max-width: 768px) {
 
-	.menu {
-		height: auto;
+	body {
+		margin-top: 0;
 	}
 
-	.navbar {
-		flex-direction: column;
-		height: auto;
-		padding: 15px;
-		gap: 15px;
-	}
-
-	.logo {
-		font-size: 1.5rem;
-		text-align: center;
-	}
-
-	.nav-links {
-		flex-direction: column;
-		align-items: center;
-		gap: 8px;
-		font-size: 1.2rem;
-	}
-
-	.nav-links a {
-		padding: 5px;
-	}
-
-	.cont_texte {
-		height: 600px;
-		padding: 20px;
-	}
-
-	.titre_principal h1 {
+	/* Toutes les sections principales */
+	body > div {
 		width: 100%;
-		height: auto;
-		font-size: 450%;
+		height: auto !important;
+		min-height: auto !important;
+		padding: 30px 15px;
 	}
 
-	.titre_principal p {
-		width: 100%;
-		height: auto;
-		font-size: 180%;
+	/* Tous les conteneurs directs */
+	body div {
+		max-width: 100%;
+		height: auto !important;
 	}
 
-	.Page_profil,
-	.Page_parcours,
-	.Page_certification,
-	.Page_veille,
-	.Page_contact,
-	.Page_projet,
-	.Page_compétences {
-		height: auto;
-		min-height: 100vh;
-		padding-bottom: 40px;
-	}
-
-	.profil_cont_gd {
-		flex-direction: column;
-		align-items: center;
-		height: auto;
-	}
-
-	.profil_gauche,
-	.profil_droite {
-		width: 90%;
-		height: auto;
-		min-height: 250px;
-		font-size: 20px;
-		padding: 20px;
-		text-align: center;
-	}
-
-	.parcours_cont,
-	.veille_cont {
-		height: auto;
-		padding-bottom: 40px;
-	}
-
-	.parcours_scolaire,
-	.parcours_pro,
-	.veille_techno,
-	.veille_juri {
-		width: 90%;
-		height: auto;
-	}
-
+	/* Tous les groupes flex passent en colonne */
 	.scoB,
 	.proH,
 	.proB,
+	.projetH,
+	.projetB,
+	.certif_cont,
 	.technoH,
 	.juriB,
-	.certif_cont,
+	.compé_L1,
+	.compé_L2,
+	.compé_L3,
 	.contact_cont {
-		flex-direction: column;
-		height: auto;
-		gap: 25px;
-		padding: 30px 0;
+		flex-direction: column !important;
+		align-items: center !important;
+		justify-content: center !important;
+		gap: 25px !important;
 	}
 
-	.scolaire1,
-	.scolaire2,
-	.scolaire3,
-	.scolaire4,
-	.scolaire5,
-	.pro1,
-	.pro2,
-	.pro3,
-	.pro4,
-	.pro5,
-	.pro6,
-	.pro7,
-	.techno1,
-	.techno2,
-	.techno3,
-	.techno4,
-	.techno5,
-	.juri1,
-	.juri2,
-	.juri3,
-	.certif1,
-	.certif2,
-	.certif3,
-	.contact1,
-	.contact2,
-	.contact3 {
-		width: 85%;
-		height: 250px;
-		font-size: 22px;
+	/* Toutes les cartes */
+	.scoB > div,
+	.proH > div,
+	.proB > div,
+	.projetH > div,
+	.projetB > div,
+	.certif_cont > div,
+	.technoH > div,
+	.juriB > div,
+	.compé_L1 > div,
+	.compé_L2 > div,
+	.compé_L3 > div,
+	.contact_cont > div {
+		width: 90% !important;
+		max-width: 420px;
+		height: auto !important;
+		min-height: auto !important;
+		padding: 15px;
 	}
 
-	.profil_titre,
-	.parcours_titre,
-	.certif_titre,
-	.veille_titre {
-		height: auto;
-		padding: 40px 20px;
-		font-size: 22px;
+	/* Tous les blocs image */
+	div[class*="_img"] {
+		width: 100% !important;
+		height: auto !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	}
+
+	/* Images dans les cartes */
+	div[class*="_img"] img,
+	.compé_cont img {
+		width: 100% !important;
+		max-width: 280px;
+		height: auto !important;
+		object-fit: contain !important;
+		margin: auto;
+	}
+
+	/* Textes */
+	div[class*="_txt"] {
+		width: 100% !important;
+		height: auto !important;
 		text-align: center;
+		padding: 10px;
 	}
 
-	.titre_scolaire,
-	.titre_pro,
-	.titre_techno,
-	.titre_juri {
-		height: auto;
-		padding: 30px 10px;
-		font-size: 35px;
-		text-align: center;
-	}
-}
-
-/* solution pour les petits écrans au cas où */
-@media screen and (max-width: 480px) {
-
+	/* Gros titre accueil */
 	.titre_principal h1 {
-		font-size: 300%;
+		width: 100%;
+		font-size: 3.5rem;
+		height: auto;
 	}
 
 	.titre_principal p {
-		font-size: 140%;
+		width: 100%;
+		font-size: 1.3rem;
+		height: auto;
 	}
 
-	.logo {
-		font-size: 1.2rem;
+	/* Menu */
+	.navbar {
+		height: auto;
+		flex-direction: column;
+		position: static;
+		padding: 15px;
 	}
 
 	.nav-links {
+		flex-wrap: wrap;
+		justify-content: center;
 		font-size: 1rem;
-	}
-
-	.scolaire1,
-	.scolaire2,
-	.scolaire3,
-	.scolaire4,
-	.scolaire5,
-	.pro1,
-	.pro2,
-	.pro3,
-	.pro4,
-	.pro5,
-	.pro6,
-	.pro7,
-	.techno1,
-	.techno2,
-	.techno3,
-	.techno4,
-	.techno5,
-	.juri1,
-	.juri2,
-	.juri3,
-	.certif1,
-	.certif2,
-	.certif3,
-	.contact1,
-	.contact2,
-	.contact3 {
-		width: 90%;
-		height: 220px;
-		font-size: 18px;
+		gap: 10px;
 	}
 }
-html {
-	scroll-behavior: smooth;
+/* ===== Correction texte responsive section Projets ===== */
+
+.projet1,
+.projet2,
+.projet3,
+.projet4 {
+	height: auto !important;
+	min-height: 600px;
+	padding: 30px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.projet1_txt,
+.projet2_txt,
+.projet3_txt,
+.projet4_txt {
+	width: 100%;
+	height: auto !important;
+}
+
+.projet1_txt h1,
+.projet2_txt h1,
+.projet3_txt h1,
+.projet4_txt h1 {
+	font-size: clamp(28px, 4vw, 48px);
+	line-height: 1.2;
+	margin: 0 0 20px 0;
+}
+
+.projet1_txt p,
+.projet2_txt p,
+.projet3_txt p,
+.projet4_txt p {
+	font-size: clamp(15px, 2vw, 20px);
+	line-height: 1.5;
+	text-align: justify;
+	word-spacing: normal;
+	overflow-wrap: break-word;
+}
+
+.projet1_bout,
+.projet2_bout,
+.projet3_bout,
+.projet4_bout {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* Sur téléphone, on évite les gros espaces du justify */
+@media screen and (max-width: 768px) {
+	.projet1_txt p,
+	.projet2_txt p,
+	.projet3_txt p,
+	.projet4_txt p {
+		text-align: left;
+	}
+}
+.projetH {
+	margin-bottom: 50px;
 }
